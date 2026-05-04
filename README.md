@@ -4,6 +4,10 @@ Crate Collector is a first-person WebGL browser game built with HTML, CSS, and J
 
 This project was created as part of my second-year Computer Graphics coursework.
 
+## Live Demo
+
+Play the game here: https://vermillion-bunny-f6245f.netlify.app/
+
 ## Features
 
 - First-person 3D movement using WebGL
@@ -30,6 +34,14 @@ This project was created as part of my second-year Computer Graphics coursework.
 | `Enter` | Continue after level messages |
 
 ## How To Run
+
+You can play the deployed version here:
+
+```text
+https://vermillion-bunny-f6245f.netlify.app/
+```
+
+To run the project locally:
 
 1. Download or clone the repository.
 2. Open `index.html` in a web browser.
