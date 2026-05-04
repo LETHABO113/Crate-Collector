@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crate collector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-image: url('textures/background.jpg'); ">
+
+    <canvas id="glcanvas" width="1500" height="800"></canvas>
+
+    <div id="menu-screen">
+        <div class="menu-card">
+            <h1>Crate Collector</h1>
+            <p>Collect every crate before the timer runs out.</p>
+            <p>Move with W A S D and turn with the arrow keys.</p>
+            <p>Press Enter after each level message to continue.</p>
+            <button id="start-button" type="button">Start Game</button>
+        </div>
+    </div>
+
+    <!--HUD -->
+    <div id="hud">
+        <span id="level">Level: 1 / 5</span>
+        <span id="score">Crates: 0 / 6</span>
+        <span id="timer">Time: 30</span>
+        <span id="best">Best: --</span>
+        <button id="restart-button" type="button">Restart</button>
+    </div>
+
+    <!--Win/lose overlay-->
+    <div id="overlay"></div>
+
+    <!--Load scripts in order-->
+    <script src="math.js"></script>
+    <script src="gl.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>
