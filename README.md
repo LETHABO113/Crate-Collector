@@ -51,18 +51,6 @@ To run the project locally:
 
 Do not open `index.html` directly from the file system, because the textures may not load correctly. The project should be run through a local server.
 
-As another option, you can run a local server from the project folder with:
-
-```bash
-python -m http.server
-```
-
-Then open:
-
-```text
-http://localhost:8000
-```
-
 ## Project Structure
 
 ```text
