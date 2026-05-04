@@ -44,10 +44,14 @@ https://vermillion-bunny-f6245f.netlify.app/
 To run the project locally:
 
 1. Download or clone the repository.
-2. Open `index.html` in a web browser.
-3. Click **Start Game**.
+2. Open the project folder in Visual Studio Code.
+3. Install the **Live Server** extension by Ritwick Dey if you do not already have it.
+4. Right-click `index.html` and choose **Open with Live Server**.
+5. Click **Start Game**.
 
-If the textures do not load correctly from a direct file open, run the project with a local server. For example:
+Do not open `index.html` directly from the file system, because the textures may not load correctly. The project should be run through a local server.
+
+As another option, you can run a local server from the project folder with:
 
 ```bash
 python -m http.server
