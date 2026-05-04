@@ -6,7 +6,7 @@ This project was created as part of my second-year Computer Graphics coursework.
 
 ## Live Demo
 
-Play the game here: https://vermillion-bunny-f6245f.netlify.app/
+Play the game here: https://cratecollector.netlify.app/
 
 ## Features
 
